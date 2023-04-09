@@ -1,0 +1,36 @@
+body{
+    background-color: fuchsia;
+}
+
+thead tr{
+    background-color: darkgray;
+}
+
+table tr td{
+    border: 1px solid green;
+}
+
+
+img{
+    position:absolute;
+    top:100px;
+    left:300px;
+    height:200px;
+    width:250px;
+}
+
+.para-section p:first-child{
+    border: 1px solid rgba(255, 0, 0, 0.304);
+}
+
+.para-section p:nth-child(2){
+    border: 1px dotted green;
+}
+.para-section p:nth-child(3){
+    border: 1px dashed orange;
+}
+
+.para-section p{
+    font-size: 20px;
+    font-style: navy;
+}
